@@ -1,0 +1,25 @@
+.v6{background:#d9e4c8;font-family:Inter,system-ui,sans-serif;color:#000;background-image:radial-gradient(rgba(255,255,255,.35) 1.5px,transparent 1.5px);background-size:22px 22px}
+.v6-head{display:flex;align-items:center;gap:10px;padding:50px 12px 8px;background:#f7f7f7;border-bottom:.5px solid #ccc}
+.v6-back{color:#2481cc;font-size:16px;width:70px}
+.v6-title{flex:1;text-align:center}.v6-title b{display:block;font-size:15px}.v6-title small{color:#888;font-size:12.5px}
+.v6-ava{width:38px;height:38px;border-radius:50%;background:linear-gradient(135deg,#ff8a3d,#e8401c);color:#fff;font-weight:800;margin-left:32px}
+.v6-chat{padding:10px 10px 14px;display:flex;flex-direction:column;gap:6px}
+.v6-day{align-self:center;background:rgba(0,0,0,.18);color:#fff;font-size:12.5px;font-weight:600;padding:3px 10px;border-radius:12px;margin-bottom:4px}
+.v6-msg{max-width:92%;padding:7px 10px 18px;border-radius:14px;font-size:14.5px;line-height:1.35;position:relative;white-space:pre-line;box-shadow:0 1px 1px rgba(0,0,0,.12)}
+.v6-msg.bot{background:#fff;align-self:flex-start;border-bottom-left-radius:4px}
+.v6-msg.me{background:#e1fec6;align-self:flex-end;border-bottom-right-radius:4px;padding-right:70px;padding-bottom:7px}
+.v6-time{position:absolute;right:8px;bottom:4px;font-size:11px;color:#8b9a7c}.v6-msg.bot .v6-time{color:#aaa}
+.v6-msg pre{font:12.5px/1.45 'JetBrains Mono',monospace;margin:6px 0;white-space:pre;overflow-x:auto}
+.v6-sub{color:#666;font-size:13px}
+.v6-ikb{display:flex;flex-direction:column;gap:4px;margin-top:8px;min-width:280px}
+.v6-ikb>div{display:flex;gap:4px}
+.v6-ikb button{flex:1;padding:9px 6px;border-radius:8px;background:rgba(36,129,204,.1);color:#2481cc;font-weight:600;font-size:13.5px}
+.v6-ikb button.lbl{flex:3;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:left;padding-left:10px;background:#f2f4f6;color:#222;font-weight:500}
+.v6-ikb button.sm{flex:0 0 44px}
+.v6-ikb button.go{background:#2481cc;color:#fff}
+.v6-input{display:flex;align-items:center;gap:10px;padding:8px 12px;background:#f7f7f7;border-top:.5px solid #ccc;color:#8e8e93}
+.v6-input div{flex:1;background:#fff;border:.5px solid #ddd;border-radius:18px;padding:7px 14px;font-size:15px;color:#aaa}
+.v6-kb{display:grid;grid-template-columns:1fr 1fr;gap:6px;padding:6px 6px 28px;background:#d1d3d9}
+.v6-kb button{padding:12px 4px;border-radius:8px;background:#fff;font-size:14.5px;font-weight:500;box-shadow:0 1px 0 #999}
+.v6-kb .on{background:#e8f1fb}.v6-kb .wide{grid-column:1/3}
+.v6-toast{bottom:200px}

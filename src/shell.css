@@ -1,0 +1,32 @@
+*{box-sizing:border-box;margin:0;padding:0}
+html,body,#root{height:100%}
+body{font-family:Manrope,Inter,system-ui,sans-serif;background:#e9e7e2;color:#1c1c1c;-webkit-font-smoothing:antialiased}
+button{font:inherit;color:inherit;border:0;background:none;cursor:pointer}
+input{font:inherit;color:inherit}
+.shell{display:flex;gap:40px;justify-content:center;align-items:center;min-height:100%;padding:32px}
+.side{width:330px;display:flex;flex-direction:column;gap:8px}
+.brand{font:800 26px Manrope,Inter,sans-serif;letter-spacing:-.02em}.brand span{font-weight:500;color:#8a857c;font-size:15px;margin-left:6px}
+.lead{color:#5d5a54;font-size:14px;line-height:1.45;margin:4px 0 10px}
+.vbtn{display:flex;flex-direction:column;align-items:flex-start;text-align:left;gap:2px;padding:10px 14px;border-radius:12px;background:#f6f5f2;border:1.5px solid transparent}
+.vbtn small{color:#6f6b64;font-size:12.5px;line-height:1.35}
+.vbtn.on{border-color:#1c1c1c;background:#fff}
+.roles{display:flex;gap:6px;margin-top:8px;background:#f6f5f2;padding:4px;border-radius:12px}
+.roles button{flex:1;padding:9px;border-radius:9px;font-weight:600;font-size:14px}.roles .on{background:#1c1c1c;color:#fff}
+.stage{display:flex;flex-direction:column;align-items:center}
+.frame{width:390px;height:844px;border-radius:48px;overflow:hidden;position:relative;box-shadow:0 0 0 10px #1c1c1c,0 30px 80px rgba(0,0,0,.3);transform:translateZ(0)}
+.mpick{display:none}
+.shot{width:390px;height:844px;position:relative;overflow:hidden}
+@media (max-width:760px){
+  .shell{padding:0;display:block}.side{display:none}
+  .stage{display:block;height:100%}
+  .frame{width:100%;height:100%;border-radius:0;box-shadow:none}
+  .mpick{display:flex;position:fixed;z-index:100;bottom:calc(env(safe-area-inset-bottom) + 92px);right:8px;flex-direction:column;gap:4px;opacity:.85}
+  .mpick button{width:30px;height:30px;border-radius:50%;background:rgba(0,0,0,.55);color:#fff;font-size:12px;font-weight:700}
+  .mpick .on{background:#ff5a1f}
+}
+/* общий каркас телефона */
+.app{position:absolute;inset:0;display:flex;flex-direction:column;overflow:hidden}
+.scroll{flex:1;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch}
+.scroll::-webkit-scrollbar{display:none}
+.toast{position:absolute;left:16px;right:16px;bottom:100px;z-index:50;padding:12px 16px;border-radius:14px;background:#1c1c1c;color:#fff;font-size:14px;font-weight:600;text-align:center;animation:tin .2s ease}
+@keyframes tin{from{opacity:0;transform:translateY(8px)}}

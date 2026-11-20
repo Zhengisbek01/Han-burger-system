@@ -1,0 +1,36 @@
+.v4{background:#f6f4fb;color:#17132b;font-family:Manrope,Inter,sans-serif}
+.v4-home{padding:56px 18px 30px}
+.v4-date{color:#8c86a8;font-weight:600;font-size:14px}
+.v4-head{display:flex;justify-content:space-between;align-items:center;margin:2px 0 16px}
+.v4-head h1{font-size:30px;font-weight:800;letter-spacing:-.02em}
+.v4-who{display:flex;gap:5px;align-items:center;font-size:12.5px;font-weight:700;background:#fff;border-radius:20px;padding:7px 11px;color:#6c4cf5}
+.v4-prog{display:flex;align-items:center;gap:14px;background:#fff;border-radius:22px;padding:14px 16px;margin-bottom:14px}
+.v4-prog b{font-size:20px;display:block}.v4-prog small{color:#8c86a8}
+.v4-task{width:100%;display:flex;align-items:center;gap:12px;text-align:left;background:#fff;border-radius:20px;padding:14px;margin-bottom:10px;border-left:5px solid #d9d4ee;color:#17132b}
+.v4-task.red{border-color:#ff5a5f}.v4-task.amber{border-color:#ffb020}.v4-task.blue{border-color:#6c4cf5}
+.v4-task.done{opacity:.55}.v4-task.done b{text-decoration:line-through}
+.v4-num{width:34px;height:34px;border-radius:12px;background:#f1eefb;display:grid;place-items:center;font-weight:800;color:#6c4cf5;flex-shrink:0}
+.v4-task.done .v4-num{background:#6c4cf5;color:#fff}
+.v4-tmain{flex:1;min-width:0;display:flex;flex-direction:column}.v4-tmain b{font-size:15.5px}.v4-tmain small{color:#8c86a8;font-size:12.5px;margin-top:2px}
+.v4-insight{display:flex;gap:10px;background:#17132b;color:#d9d4ee;border-radius:20px;padding:16px;font-size:14px;line-height:1.4;margin-top:6px}.v4-insight b{color:#fff}.v4-insight svg{color:#ffb020;flex-shrink:0}
+.v4-sheet{position:absolute;inset:0;top:44px;background:#fff;border-radius:28px 28px 0 0;box-shadow:0 -10px 40px rgba(23,19,43,.25);display:flex;flex-direction:column;transform:translateY(105%);transition:transform .32s cubic-bezier(.2,.8,.2,1);z-index:20}
+.v4-sheet.open{transform:none}
+.v4-shead{display:flex;justify-content:space-between;align-items:center;padding:18px 18px 10px}.v4-shead b{font-size:17px}.v4-shead span{width:36px}
+.v4-shead button{width:36px;height:36px;border-radius:50%;background:#f1eefb;display:grid;place-items:center}
+.v4-sbody{padding:4px 18px 40px}
+.v4-line{display:flex;align-items:center;gap:12px;padding:12px 0;border-bottom:1px solid #f0edf8}
+.v4-n{font-size:20px}
+.v4-dot{width:10px;height:10px;border-radius:50%;background:#2fbf71}.v4-dot.low{background:#ff5a5f}.v4-dot.excess{background:#ffb020}
+.v4-step{display:flex;align-items:center;gap:8px}.v4-step button{width:36px;height:36px;border-radius:12px;background:#f1eefb;color:#6c4cf5;display:grid;place-items:center}.v4-step b{min-width:28px;text-align:center;font-size:17px}
+.v4-btn{width:100%;padding:16px;border-radius:18px;background:#6c4cf5;color:#fff;font-weight:700;font-size:16px;margin-top:16px}
+.v4-soft{width:100%;display:flex;gap:8px;justify-content:center;align-items:center;padding:12px;border-radius:14px;background:#f1eefb;color:#6c4cf5;font-weight:700;margin:6px 0}
+.v4-card{background:#f8f7fc;border-radius:18px;padding:14px;margin-bottom:10px;display:flex;flex-direction:column;gap:2px}.v4-card small{color:#8c86a8}
+.v4-row{display:flex;justify-content:space-between}
+.v4-tag{font-size:11.5px;font-weight:700;padding:3px 9px;border-radius:9px;background:#e3f7ec;color:#1d8a52}.v4-tag.amber{background:#fff1d6;color:#a15c00}.v4-tag.blue,.v4-tag.violet{background:#ece7ff;color:#6c4cf5}
+.v4-tl{list-style:none;margin:10px 0 0;border-left:2px solid #e7e3f5;padding-left:14px}
+.v4-tl li{position:relative;padding:4px 0;font-size:13.5px;color:#b3aecb}.v4-tl li:before{content:'';position:absolute;left:-20px;top:9px;width:10px;height:10px;border-radius:50%;background:#e7e3f5}
+.v4-tl li.on{color:#17132b;font-weight:600}.v4-tl li.on:before{background:#6c4cf5}
+.v4-seg{display:flex;gap:6px;margin-bottom:12px}.v4-seg button{flex:1;padding:9px;border-radius:12px;background:#f1eefb;font-weight:700;font-size:13px;color:#6c4cf5}.v4-seg .on{background:#6c4cf5;color:#fff}
+.v4-tbl div{display:grid;grid-template-columns:1fr 70px 70px;padding:11px 0;border-bottom:1px solid #f0edf8;font-size:14.5px}
+.v4-tbl span:not(:first-child){text-align:right;font-weight:700}.v4-tbl .acc{color:#6c4cf5}
+.v4-tbl .h{color:#8c86a8;font-size:12px}.v4-tbl .h span{font-weight:600!important}.v4-tbl .t{font-weight:800;border:0}
